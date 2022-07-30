@@ -1,0 +1,59 @@
+VERSION 1 : TERMINÉE
+
+- Comporte un module de reconnaissance vocale
+- Gère les commandes suivantes sur un système Linux :
+    - Ouvrir un programme spécifiquement mentionné par l'utilisateur, ou le programme par défaut pour une action spécifique (e.g. navigateur, traitement de texte...)
+    - Fermer un programme actuellement ouvert
+    - Faire une recherche sur wikipédia
+- Pas d'interface graphique
+
+VERSION 2 : EN COURS
+
+- Gère des paramètres généraux dans un fichier de configuration unique
+- Comporte une voix synthétisée, activable dans les paramètres généraux
+- Gère les commandes suivantes :
+	- Se rendre dans un dossier spécifié par l'utilisateur et afficher son contenu dans un explorateur de fichiers. Une seule fenêtre doit être ouverte par Jarvis à la fois = NEW_WORKING_DIR
+	- Copier un élément du répertoire courant dans le presse-papiers = COPY
+	- Coller le contenu du presse-papiers dans le répertoire courant = PASTE
+	- Copier tous les éléments du répertoire courant dans le presse-papiers = COPY_ALL
+	- Déplacer/couper un élément du répertoire courant dans le presse-papier = CUT
+	- Déplacer/couper tous les éléments du répertoire courant dans le presse-papier = CUT_ALL
+	- Mettre à la corbeille un élément du répertoire courant = TRASH
+  	- Mettre à la corbeille tous les éléments du répertoire courant = TRASH_ALL
+  	- Ouvrir un fichier du répertoire actuel avec son application par défaut = OPEN_FILE
+	- Renommer un fichier ou dossier du répertoire actuel = RENAME
+	- Arrêter l'action en cours, dire à l'IA d'arrêter de parler = STOP
+	- Quitter = EXIT
+	- Revenir au dossier précédent dans l'historique = PREVIOUS
+  - remonter d'un niveau dans la hiérarchie des dossiers = GO_TO_PARENT
+
+
+
+
+
+
+
+Améliorations possibles, en vrac :
+- Intégrer la fonctionnalité de présentateur télé
+- coder version pour Windows
+- créer une version facilement distribuable
+- Créer une version adaptée pour un Raspberry Pi
+- Ajouter fonctionnalités d'API diverses : météo, recettes de cuisine, emploi du temps, etc...
+- Interface graphique
+- Recherches web arbitraires
+- Tenir une vraie conversation avec réponse de Jarvis
+- utiliser un système de reconnaissance vocale autre que google
+- permettre à Jarvis de fermer des programmes en lui donnant seulement le type d'application à fermer (navigateur web, traitement de texte...)
+- Copier tous les fichiers du répertoire courant dans le presse-papiers = COPY_ALL_FILES
+- Copier tous les dossiers du répertoire courant dans le presse-papiers = COPY_ALL_FOLDERS
+- Déplacer/couper tous les fichiers du répertoire courant dans le presse-papier = CUT_ALL_FILES
+- Déplacer/couper tous les dossiers du répertoire courant dans le presse-papier = CUT_ALL_FOLDERS
+- Mettre à la corbeille tous les fichiers du répertoire courant = TRASH_ALL_FILES
+- Mettre à la corbeille tous les dossiers du répertoire courant = TRASH_ALL_FOLDERS
+
+
+
+MODÈLES POSSIBLES POUR LE CLASSIFICATEUR :
+- DNN avec bags of words
+- RNN
+- Naïve Bayes
