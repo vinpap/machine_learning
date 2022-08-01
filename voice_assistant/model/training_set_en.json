@@ -3434,5 +3434,205 @@
     [
         "i want to see the parent folder",
         "go_to_parent_dir"
+    ],
+    [
+        "what are the news",
+        "news"
+    ],
+    [
+        "give me the news",
+        "news"
+    ],
+    [
+        "what are today's news",
+        "news"
+    ],
+    [
+        "did something happened on the news",
+        "news"
+    ],
+    [
+        "anything interesting in the news",
+        "news"
+    ],
+    [
+        "what's new in the world",
+        "news"
+    ],
+    [
+        "give me recap of the news",
+        "news"
+    ],
+    [
+        "tell me about the news",
+        "news"
+    ],
+    [
+        "what happened in the news today",
+        "news"
+    ],
+    [
+        "i want the news",
+        "news"
+    ],
+    [
+        "give me today's news now",
+        "news"
+    ],
+    [
+        "is there anything interesting in the news",
+        "news"
+    ],
+    [
+        "give me a news bulletin",
+        "news"
+    ],
+    [
+        "i want to watch TV news",
+        "news"
+    ],
+    [
+        "give me the last breaking news",
+        "news"
+    ],
+    [
+        "please give me some breaking news",
+        "news"
+    ],
+    [
+        "i want you to give me today's news",
+        "news"
+    ],
+    [
+        "what is todays's news recap",
+        "news"
+    ],
+    [
+        "could you tell me about the news",
+        "news"
+    ],
+    [
+        "tell me what today's news are",
+        "news"
+    ],
+    [
+        "give me my daily news",
+        "news"
+    ],
+    [
+        "give me a news report",
+        "news"
+    ],
+    [
+        "i want my news report",
+        "news"
+    ],
+    [
+        "please give me a summary of todays news",
+        "news"
+    ],
+    [
+        "tell me what happened in the news today",
+        "news"
+    ],
+    [
+        "tell me what happened in the world today",
+        "news"
+    ],
+    [
+        "news please",
+        "news"
+    ],
+    [
+        "give me a news report now",
+        "news"
+    ],
+    [
+        "i want the daily news",
+        "news"
+    ],
+    [
+        "give me the news like on TV",
+        "news"
+    ],
+    [
+        "i would like to know what happened in the world today",
+        "news"
+    ],
+    [
+        "please give me my daily custom news",
+        "news"
+    ],
+    [
+        "could you give me a news report based on my RSS please",
+        "news"
+    ],
+    [
+        "i want my daily news report please",
+        "news"
+    ],
+    [
+        "can you tell me what happened today",
+        "news"
+    ],
+    [
+        "i want the latest news reports",
+        "news"
+    ],
+    [
+        "can you give me a news bulletin",
+        "news"
+    ],
+    [
+        "give me my daily dose of news",
+        "news"
+    ],
+    [
+        "did something interesting happened on the world today",
+        "news"
+    ],
+    [
+        "what happened today",
+        "news"
+    ],
+    [
+        "could you give me a summary of the news",
+        "news"
+    ],
+    [
+        "give me a summary of the news please",
+        "news"
+    ],
+    [
+        "i want a news report",
+        "news"
+    ],
+    [
+        "tell me about the news if you can",
+        "news"
+    ],
+    [
+        "i want you to tell me what happened in the world today",
+        "news"
+    ],
+    [
+        "anything big happening today",
+        "news"
+    ],
+    [
+        "give me a news recap",
+        "news"
+    ],
+    [
+        "give me a news briefing",
+        "news"
+    ],
+    [
+        "give me today's news outline",
+        "news"
+    ],
+    [
+        "i want a summary of what happened today",
+        "news"
     ]
 ]

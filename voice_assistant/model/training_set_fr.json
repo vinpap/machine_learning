@@ -3434,5 +3434,205 @@
     [
         "je veux voir le parent du dossier actuel",
         "go_to_parent_dir"
+    ],
+    [
+        "quelles sont les news",
+        "news"
+    ],
+    [
+        "donne-moi les informations",
+        "news"
+    ],
+    [
+        "c'est quoi les infos d'aujourd'hui",
+        "news"
+    ],
+    [
+        "est-ce qu'il s'est passé quelque chose aux informations",
+        "news"
+    ],
+    [
+        "est-ce qu'il y a quelque chose d'intéressant aux infos",
+        "news"
+    ],
+    [
+        "quoi de neuf dans le monde",
+        "news"
+    ],
+    [
+        "fais-moi un résumé des informations",
+        "news"
+    ],
+    [
+        "parle-moi des news",
+        "news"
+    ],
+    [
+        "il s'est passé quoi aux informations aujourd'hui",
+        "news"
+    ],
+    [
+        "je veux entendre les informations",
+        "news"
+    ],
+    [
+        "donne-moi les informations du jour maintenant",
+        "news"
+    ],
+    [
+        "des trucs intéressants aux infos",
+        "news"
+    ],
+    [
+        "fais-moi un bulletin télévisé",
+        "news"
+    ],
+    [
+        "je veux entendre les infos du jour",
+        "news"
+    ],
+    [
+        "donne-moi les infos de dernières minutes",
+        "news"
+    ],
+    [
+        "donne-moi des breaking news s'il te plaît",
+        "news"
+    ],
+    [
+        "je veux que tu me donnes les news d'aujourd'hui",
+        "news"
+    ],
+    [
+        "c'est quoi les informations du jour",
+        "news"
+    ],
+    [
+        "tu pourrais me donner les informations",
+        "news"
+    ],
+    [
+        "dis-moi quelles sont les informations du jour",
+        "news"
+    ],
+    [
+        "donne-moi mes informations journalières",
+        "news"
+    ],
+    [
+        "donne-moi un résumé des informations",
+        "news"
+    ],
+    [
+        "je veux mon bulletin d'informations",
+        "news"
+    ],
+    [
+        "s'il te plaît fais-moi un résumé des infos du jour",
+        "news"
+    ],
+    [
+        "dis-moi ce qu'il s'est passé aux informations aujourd'hui",
+        "news"
+    ],
+    [
+        "dis-moi ce qu'il s'est passé dans le monde aujourd'hui",
+        "news"
+    ],
+    [
+        "les infos s'il te plaît",
+        "news"
+    ],
+    [
+        "fais-moi un résumé des informations",
+        "news"
+    ],
+    [
+        "je voudrais avoir les infos journalières",
+        "news"
+    ],
+    [
+        "donne-moi les infos comme à la télé",
+        "news"
+    ],
+    [
+        "je voudrais savoir ce qu'il s'est passé dans le monde récemment",
+        "news"
+    ],
+    [
+        "donne-moi mes infos personnalisées",
+        "news"
+    ],
+    [
+        "tu pourrais me faire un bulletin d'infos basé sur mes flux RSS s'il te plaît",
+        "news"
+    ],
+    [
+        "je voudrais mon résumé d'informations s'il te plaît",
+        "news"
+    ],
+    [
+        "tu peux me dire ce qu'il s'est passé aujourd'hui",
+        "news"
+    ],
+    [
+        "je voudrais un résumé des dernières news",
+        "news"
+    ],
+    [
+        "tu peux me donner un bulletin d'informations",
+        "news"
+    ],
+    [
+        "donne-moi ma dose d'informations quotidienne",
+        "news"
+    ],
+    [
+        "est-ce qu'il s'est passé quelque chose dans le monde aujourd'hui",
+        "news"
+    ],
+    [
+        "il s'est passé quoi aujourd'hui",
+        "news"
+    ],
+    [
+        "tu pourrais me faire un résumé des informations",
+        "news"
+    ],
+    [
+        "fais-moi un résumé des infos",
+        "news"
+    ],
+    [
+        "je veux un bulletin d'informations",
+        "news"
+    ],
+    [
+        "parle-moi des informations si tu peux",
+        "news"
+    ],
+    [
+        "je veux que tu me dises ce qu'il se passe dans le monde aujourd'hui",
+        "news"
+    ],
+    [
+        "il se passe des trucs importants aujourd'hui",
+        "news"
+    ],
+    [
+        "donne-moi un résumé des infos",
+        "news"
+    ],
+    [
+        "fais-moi un briefing des informations",
+        "news"
+    ],
+    [
+        "donne-moi un résumé des informations du jour",
+        "news"
+    ],
+    [
+        "je veux un résumé de ce qu'il s'est passé aujourd'hui",
+        "news"
     ]
 ]
