@@ -72,168 +72,200 @@ class Assistant(IAssistant):
         keep_running = True
         standby_mode = False
 
+
         while keep_running:
 
-            if text_input_only:
-                sentence = input(self._env.working_dir + " > ")
-                logging.info("User said: '" + sentence + "'")
+            try:
 
-            else:
-                print(self._env.working_dir + " > ")
-                sentence = self.speech_rec.wait_input()
-                logging.info("User said: '" + sentence + "'")
+                if text_input_only:
+                    sentence = input(self._env.working_dir + " > ")
+                    logging.info("User said: '" + sentence + "'")
 
-            if standby_mode:
-                if self._env.language == "en" and sentence.lower() == "wake up":
-                    standby_mode = False
-                    potential_lines = ["I'm back!", "Hello again!", "Do you need something?"]
-                    if text_output_only: print(pick_random_sentence(potential_lines))
-                    else: self.tts.say(pick_random_sentence(potential_lines))
+                else:
+                    print(self._env.working_dir + " > ")
+                    sentence = self.speech_rec.wait_input()
+                    logging.info("User said: '" + sentence + "'")
 
-                if self._env.language == "fr" and sentence.lower() == "réveille-toi":
-                    standby_mode = False
-                    potential_lines = ["Me revoilà !", "Oui ?", "De quoi avez-vous besoin ?"]
-                    if text_output_only: print(pick_random_sentence(potential_lines))
-                    else: self.tts.say(pick_random_sentence(potential_lines))
+                if standby_mode:
+                    if self._env.language == "en" and sentence.lower() == "wake up":
+                        standby_mode = False
+                        potential_lines = ["I'm back!", "Hello again!", "Do you need something?"]
+                        if text_output_only: print(pick_random_sentence(potential_lines))
+                        else: self.tts.say(pick_random_sentence(potential_lines))
 
-                continue
+                    if self._env.language == "fr" and sentence.lower() == "réveille-toi":
+                        standby_mode = False
+                        potential_lines = ["Me revoilà !", "Oui ?", "De quoi avez-vous besoin ?"]
+                        if text_output_only: print(pick_random_sentence(potential_lines))
+                        else: self.tts.say(pick_random_sentence(potential_lines))
 
-
-            # First we check self._current_intent to see if an intent is
-            # currently performing a task. If so, the classifier is not called,
-            # and the input is sent directly to the corresponding intent slot
-            # instead
-            if not self._current_intent: intent = self.classifier.give_prediction(sentence.lower())
-            else:
-                # The stop intent has two consequences. First it cancels the
-                # ongoing action, if any. Then it also interrupts anything
-                # the AI is currently saying (if text_output_only is set to False)
-                if self.classifier.give_prediction(sentence.lower()) == "stop":
-                    logging.debug("Intent '" + self._current_intent + "' was cancelled")
-                    self.intent_slots[self._current_intent].cancel_action()
-                    self.tts.stop()
-                    if self._env.language == "en" :
-                        potential_lines = ["Okay!", "Gotcha!", "Understood!"]
-                    elif self._env.language == "fr" :
-                        potential_lines = ["OK !", "Compris !", "D'accord !"]
-                    selected_sentence = pick_random_sentence(potential_lines)
-                    if text_output_only : print(selected_sentence)
-                    else: self.tts.say(selected_sentence)
-                    logging.info("AI said: '" + selected_sentence + "'")
-                    self._current_intent = None
                     continue
-                response = self.intent_slots[self._current_intent].run(sentence)
-                if (not (type(response[0]) is str)) or (not (type(response[1]) is bool)) :
-                    raise TypeError("Wrong response format. The expected format is tuple(str, bool)")
-                if text_output_only:
-                    if response[0] != "":
-                        print(response[0])
-                        logging.info("AI said: '" + response[0] + "'")
+
+
+                # First we check self._current_intent to see if an intent is
+                # currently performing a task. If so, the classifier is not called,
+                # and the input is sent directly to the corresponding intent slot
+                # instead
+                if not self._current_intent: intent = self.classifier.give_prediction(sentence.lower())
                 else:
-                    if response[0] != "":
-                        self.tts.say(response[0])
-                        logging.info("AI said: '" + response[0] + "'")
-
-                # If the boolean value response[1] is False, it means that
-                # this intent slot is not done with its task and further
-                # input will be redirected directly to it.
-                if response[1]: self._current_intent = None
-                else: self._current_intent = slot
-                continue
-
-            logging.debug("Classifier predicted the intent '" + intent + "'")
-
-            if intent == "MESSAGE_NOT_VALID":
-                logging.info("MESSAGE_NOT_VALID")
-                if text_output_only:
-                    if self._env.language == "en":
-                        print("Please input a valid message")
-                        logging.info("AI said: 'Please input a valid message'")
-                    elif self._env.language == "fr":
-                        print("Ce message n'est pas valide")
-                        logging.info("AI said: 'Ce message n'est pas valide'")
-                    else: raise ValueError("Wrong language code used")
-                else:
-                    if self._env.language == "en":
-                        self.tts.say("This message is not valid")
-                        logging.info("AI said: 'This message is not valid'")
-                    elif self._env.language == "fr":
-                        self.tts.say("Ce message n'est pas valide")
-                        logging.info("AI said: 'Ce message n'est pas valide'")
-                    else: raise ValueError("Wrong language code used")
-                continue
-
-            elif intent == "UNSURE":
-                logging.info("INTENT UNSURE")
-                if self._env.language == "en":
-                    potential_lines = ["Sorry, I don't understand what you want",
-                                    "Sorry, I don't get it",
-                                    "I don't understand what you need"]
-                elif self._env.language == "fr":
-                    potential_lines = ["Désolé, je ne comprends pas ce que vous voulez",
-                                    "Je n'ai pas compris",
-                                    "Je ne comprends pas ce qu'il vous faut"]
-                else: raise ValueError("Wrong language code used")
-
-                selected_sentence = pick_random_sentence(potential_lines)
-
-                if text_output_only: print(selected_sentence)
-                else: self.tts.say(selected_sentence)
-                logging.info("AI said: '" + selected_sentence + "'" )
-
-                continue
-
-            elif intent == "standby":
-                if self._current_intent:
-                    self.intent_slots[self._current_intent].cancel_action()
-                    logging.debug("Intent '" + self._current_intent + "' was cancelled")
-                self.tts.stop()
-                self._current_intent = None
-                standby_mode = True
-
-                if self._env.language == "en":
-                    potential_lines = ["Bye!",
-                                    "See you later!",
-                                    "I will se you later!"]
-                elif self._env.language == "fr":
-                    potential_lines = ["À plus tard !",
-                                    "Au revoir !",
-                                    "On se voit plus tard !"]
-                else: raise ValueError("Wrong language code used")
-
-                selected_sentence = pick_random_sentence(potential_lines)
-
-                if text_output_only: print(selected_sentence)
-                else: self.tts.say(selected_sentence)
-                logging.info("AI said: '" + selected_sentence + "'" )
-
-
-
-            elif intent == "stop": self.tts.stop()
-
-            for slot in self.intent_slots:
-                if slot == intent:
-                    response = self.intent_slots[slot].run(sentence)
-
+                    # The stop intent has two consequences. First it cancels the
+                    # ongoing action, if any. Then it also interrupts anything
+                    # the AI is currently saying (if text_output_only is set to False)
+                    if self.classifier.give_prediction(sentence.lower()) == "stop":
+                        logging.debug("Intent '" + self._current_intent + "' was cancelled")
+                        self.intent_slots[self._current_intent].cancel_action()
+                        self.tts.stop()
+                        if self._env.language == "en" :
+                            potential_lines = ["Okay!", "Gotcha!", "Understood!"]
+                        elif self._env.language == "fr" :
+                            potential_lines = ["OK !", "Compris !", "D'accord !"]
+                        selected_sentence = pick_random_sentence(potential_lines)
+                        if text_output_only : print(selected_sentence)
+                        else: self.tts.say(selected_sentence)
+                        logging.info("AI said: '" + selected_sentence + "'")
+                        self._current_intent = None
+                        continue
+                    response = self.intent_slots[self._current_intent].run(sentence)
                     if (not (type(response[0]) is str)) or (not (type(response[1]) is bool)) :
                         raise TypeError("Wrong response format. The expected format is tuple(str, bool)")
                     if text_output_only:
                         if response[0] != "":
                             print(response[0])
-                            logging.info("AI said: '" + response[0] +"'")
+                            logging.info("AI said: '" + response[0] + "'")
                     else:
                         if response[0] != "":
                             self.tts.say(response[0])
-                            logging.info("AI said: '" + response[0] +"'")
+                            logging.info("AI said: '" + response[0] + "'")
 
                     # If the boolean value response[1] is False, it means that
                     # this intent slot is not done with its task and further
                     # input will be redirected directly to it.
                     if response[1]: self._current_intent = None
                     else: self._current_intent = slot
-                    break
+                    continue
+
+                logging.debug("Classifier predicted the intent '" + intent + "'")
+
+                if intent == "MESSAGE_NOT_VALID":
+                    logging.info("MESSAGE_NOT_VALID")
+                    if text_output_only:
+                        if self._env.language == "en":
+                            print("Please input a valid message")
+                            logging.info("AI said: 'Please input a valid message'")
+                        elif self._env.language == "fr":
+                            print("Ce message n'est pas valide")
+                            logging.info("AI said: 'Ce message n'est pas valide'")
+                        else: raise ValueError("Wrong language code used")
+                    else:
+                        if self._env.language == "en":
+                            self.tts.say("This message is not valid")
+                            logging.info("AI said: 'This message is not valid'")
+                        elif self._env.language == "fr":
+                            self.tts.say("Ce message n'est pas valide")
+                            logging.info("AI said: 'Ce message n'est pas valide'")
+                        else: raise ValueError("Wrong language code used")
+                    continue
+
+                elif intent == "UNSURE":
+                    logging.info("INTENT UNSURE")
+                    if self._env.language == "en":
+                        potential_lines = ["Sorry, I don't understand what you want",
+                                        "Sorry, I don't get it",
+                                        "I don't understand what you need"]
+                    elif self._env.language == "fr":
+                        potential_lines = ["Désolé, je ne comprends pas ce que vous voulez",
+                                        "Je n'ai pas compris",
+                                        "Je ne comprends pas ce qu'il vous faut"]
+                    else: raise ValueError("Wrong language code used")
+
+                    selected_sentence = pick_random_sentence(potential_lines)
+
+                    if text_output_only: print(selected_sentence)
+                    else: self.tts.say(selected_sentence)
+                    logging.info("AI said: '" + selected_sentence + "'" )
+
+                    continue
+
+                elif intent == "standby":
+                    if self._current_intent:
+                        self.intent_slots[self._current_intent].cancel_action()
+                        logging.debug("Intent '" + self._current_intent + "' was cancelled")
+                    self.tts.stop()
+                    self._current_intent = None
+                    standby_mode = True
+
+                    if self._env.language == "en":
+                        potential_lines = ["Bye!",
+                                        "See you later!",
+                                        "I will see you later!"]
+                    elif self._env.language == "fr":
+                        potential_lines = ["À plus tard !",
+                                        "Au revoir !",
+                                        "On se voit plus tard !"]
+                    else: raise ValueError("Wrong language code used")
+
+                    selected_sentence = pick_random_sentence(potential_lines)
+
+                    if text_output_only: print(selected_sentence)
+                    else: self.tts.say(selected_sentence)
+                    logging.info("AI said: '" + selected_sentence + "'" )
 
 
+
+                elif intent == "stop": self.tts.stop()
+
+                for slot in self.intent_slots:
+                    if slot == intent:
+                        response = self.intent_slots[slot].run(sentence)
+
+                        if (not (type(response[0]) is str)) or (not (type(response[1]) is bool)) :
+                            raise TypeError("Wrong response format. The expected format is tuple(str, bool)")
+                        if text_output_only:
+                            if response[0] != "":
+                                print(response[0])
+                                logging.info("AI said: '" + response[0] +"'")
+                        else:
+                            if response[0] != "":
+                                self.tts.say(response[0])
+                                logging.info("AI said: '" + response[0] +"'")
+
+                        # If the boolean value response[1] is False, it means that
+                        # this intent slot is not done with its task and further
+                        # input will be redirected directly to it.
+                        if response[1]: self._current_intent = None
+                        else: self._current_intent = slot
+                        break
+
+            except KeyboardInterrupt:
+
+                self.tts.stop()
+                if self._env.language == "en":
+                    potential_lines = ["Bye!",
+                                    "See you later!",
+                                    "I will see you later!"]
+                elif self._env.language == "fr":
+                    potential_lines = ["À plus tard !",
+                                    "Au revoir !",
+                                    "On se voit plus tard !"]
+                else: raise ValueError("Wrong language code used")
+                selected_sentence = pick_random_sentence(potential_lines)
+
+                if text_output_only: print(selected_sentence)
+                else: self.tts.say(selected_sentence)
+                logging.info("AI said: '" + selected_sentence + "'" )
+
+                keep_running = False
+                for slot in self.intent_slots:
+                    # Calling the exit method of each intent slot right before exiting.
+                    # It enables them to quit cleanly by joining threads, freeing up
+                    # resources, etc
+                    self.intent_slots[slot].exit()
+
+        for slot in self.intent_slots:
+            # Calling the exit method of each intent slot right before exiting.
+            # It enables them to quit cleanly by joining threads, freeing up
+            # resources, etc
+            self.intent_slots[slot].exit()
 
     def add_intent(self, intent):
 

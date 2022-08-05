@@ -63,6 +63,13 @@ class IIntent_slot(ABC):
     def cancel_action(self):
         self._task_is_ongoing = False
 
+    def exit(self):
+        """This is called by Assistant right before exiting, thus allowing the
+        intent slot to perform any action required at that time (joining threads,
+        freeing up resources, etc.)"""
+        pass
+
+
 
     @abstractmethod
     def run(self, input):

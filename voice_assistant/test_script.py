@@ -7,6 +7,7 @@ from text_to_speech import Text_to_speech
 
 import desktop
 from wikipedia_search import Wikipedia
+from news import News
 
 logging.basicConfig(filename='voice_assistant.log',
 level=logging.INFO,
@@ -35,10 +36,10 @@ s_rename = desktop.Rename()
 s_go_to_parent_dir = desktop.Go_to_parent_dir()
 
 s_wikipedia = Wikipedia()
+s_news = News()
 
 voice_assistant.add_intents([s_open_program,
                             s_close_program,
-                            s_wikipedia,
                             s_new_working_dir,
                             s_copy,
                             s_paste,
@@ -50,6 +51,8 @@ voice_assistant.add_intents([s_open_program,
                             s_previous,
                             s_open_file,
                             s_rename,
-                            s_go_to_parent_dir])
+                            s_go_to_parent_dir,
+                            s_wikipedia,
+                            s_news])
 
 voice_assistant.run()

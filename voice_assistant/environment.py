@@ -3,6 +3,7 @@ import logging
 import configparser
 
 import spacy
+import platformdirs
 
 """This is a singleton used by all elements in the program. As its name implies,
 it stores and keeps track of data related to the current working directory,
@@ -324,7 +325,10 @@ class Environment:
         """Loads the configuration data from the settings file.
         Just a quick note: Spacy language models are VERY memory-heavy. That's
         why we load them here so that they're created only once, and accessed
-        through the language_model decorator when needed."""
+        through the language_model decorator when needed.
+        NOTE: in the long run, settings.ini will be moved to the default config
+        folder for the OS. For now it is kept in the project's folder for
+        conveniency's sake"""
 
         Environment.__config = configparser.ConfigParser()
         Environment.__config.read("settings.ini")

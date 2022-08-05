@@ -1,0 +1,292 @@
+2022-08-02 19:09:06,449 | Base working directory: /home/vincent
+2022-08-02 19:09:07,052 | RSS feed registered: https://www.france24.com/fr/rss
+2022-08-02 19:09:07,053 | Downloading articles from the provided RSS feeds
+2022-08-02 19:09:07,055 | Entering main loop
+2022-08-02 19:09:07,055 | The following intents are recognized: ['open_program', 'close_program', 'new_working_dir', 'copy', 'paste', 'copy_all', 'cut', 'cut_all', 'trash', 'trash_all', 'previous', 'open_file', 'rename', 'go_to_parent_dir', 'wikipedia', 'news']
+2022-08-02 19:09:07,055 | Speech recognition is off
+2022-08-02 19:09:07,056 | Speech synthesis is off
+2022-08-02 19:09:17,640 | Unable to retrieve content from URL https://www.france24.com/fr/vid%C3%A9o/20220731-essor-du-football-f%C3%A9minin-en-angleterre
+2022-08-02 19:09:18,069 | Unable to retrieve content from URL https://www.france24.com/fr/europe/20220731-en-direct-la-russie-dit-avoir-invit%C3%A9-des-experts-de-l-onu-%C3%A0-enqu%C3%AAter-sur-olenivka
+2022-08-02 19:09:22,899 | Generating summaries from the downloaded news articles
+2022-08-02 19:09:26,489 | News bulletin is ready
+2022-08-02 19:09:32,434 | User said: 'donne-moi les infos du jour'
+2022-08-02 19:09:32,760 | Intent: news
+2022-08-02 19:09:32,763 | AI said: 'Afghanistan : qui était Ayman al-Zawahiri, le successeur de Ben Laden à la tête d'Al-Qaïda ?
+Orpheline d'oussama ben laden, al-qaïda est devenue de plus en plus décentralisée, comme l’explique wassim nasr : sous zawahiri, en somalie ou au yémen par exemple, les filiales de la nébuleuse terroriste recevaient certes “des directives” de la maison-mère, mais agissaient comme bon leur semble, et si elles survivent aujourd’hui, c’est “par leurs propres moyens”. Il a tout de même “permis à al al-qaïda de survivre à l’état islamique, tout en maintenant de très bonnes relations avec les taliban, y compris après la mort d’oussama ben laden” nuance wassim nasr sur france 24.
+
+France : quels risques la troisième canicule fait-elle peser sur les centrales nucléaires ?
+Si la saison estivale est souvent celle d’opérations de maintenance “de routine”, où les réacteurs sont rechargés en combustible en préparation de l’hiver, l’été que nous traversons est un peu “particulier”, ajoute valérie faudon : du fait des contrôles liés à la recherche de phénomènes de corrosion, lesquels ont forcé 12 réacteurs supplémentaires à l’arrêt, sur un parc de 56”. L’eau est effectivement indispensable au refroidissement des réacteurs, mais le lien avec la sécurité des centrales n’est “pas un sujet” dans notre pays, tranche valérie faudon.
+
+En direct : le premier chargement de céréales ukrainiennes attendu à Istanbul "après minuit"
+16 h 46 : la russie dénonce l'"implication directe" des états-unis dans la guerre en ukrainela russie a estimé que les états-unis, première puissance militaire mondiale, étaient directement impliqués dans le conflit en ukraine, car les services de renseignement américains approuvent et coordonnentles frappes de lance-roquettes multiples américains himars par les forces ukrainiennes. 13 h 26 : le régiment ukrainien azov désigné "organisation terroriste" par la justice russela cour suprême russe a classé mardi le régiment ukrainien azov, célèbre pour avoir défendu marioupol en ukraine, comme "organisation terroriste", ce qui pourrait valoir de très lourdes poursuites à ses combattants faits prisonniers par la russie.
+
+La France de nouveau sous la canicule et la sécheresse prolongée
+Publicité lire la suiteaprès avoir traversé le mois de juillet le plus sec jamais enregistré, la france fait face, mardi 2 août, à une troisième vague de chaleur estivale, qui remonte et s'intensifie par le sud du pays, rendant de plus en plus perceptible les conséquences du réchauffement climatique. "un épisode de canicule se confirme pour le milieu de semaine, centré sur mercredi et jeudi avec des températures maximales entre 34 à 38 °c et localement 40°c", a indiqué lundi soir météo-france.
+
+La visite potentielle de Nancy Pelosi à Taïwan fait monter la tension entre Washington et Pékin
+, la présidente de la chambre des représentants américaine, est arrivée mardi en malaisie, deuxième étape d'une tournée asiatique, qui risque de faire monter les tensions entre la chine et les états-unis, en raison d'une visite à taïwan non confirmée mais de plus en plus probable. Publicité lire la suitela présidente de la chambre des représentants, nancy pelosi, a entamé, mardi 2 août, la deuxième étape de sa tournée asiatique, en arrivant en malaisie.
+
+Législatives au Sénégal : le camp présidentiel et l'opposition se disputent la victoire
+À sicap-liberté et grand yoff, deux des communes d'arrondissement de dakar, le maire de la capitale, barthélémy dias, candidat aux législatives de la coalition d’opposition yewwi askan wi, improvise une "caravane de la victoire". Refus d'une coalition"nous récusons toute possibilité de cohabitation et (...) rassurons nos militants que nous restons majoritaires à l'issue de ce scrutin, malgré une avancée de l'opposition", a rétorqué lundi soir aminata touré, tête de liste de la coalition présidentielle.
+
+Kosovo-Serbie : pourquoi ce regain de tensions ?
+Alors que la force déployée par l'otan au kosovo (kfor) a averti d'une situation sécuritaire "tendue" dans les municipalités du nord du pays, le président serbe, aleksandar vucic, a, quant à lui, évoqué une "atmosphère portée à ébullition", et ajouté que "la serbie gagnera" si les serbes sont attaqués. La frontière entre les deux pays a été le théâtre, dimanche 31 juillet, d'un regain de tensions, la police kosovare ayant déclaré avoir été la cible de coups de feu dans le nord alors que des barricades ont été érigées par des centaines de serbes du kosovo sur des routes menant aux points de passage de jarinje et brnjak.
+
+Irak : manifestations rivales à Bagdad dans un contexte de crise politique
+Des partisans du leader populiste irakien moqtada al-sadr se rassemblent devant le bâtiment du parlement, dans un contexte de crise politique, à bagdad, en irak, le 1er août 2022. Outre le hachd al-chaabi, l'alliance englobe la formation de l'ex-premier ministre nouri al-maliki, ennemi historique de moqtada al-sadr. En irak, des manifestants opposés à moqtada sadr ont manifesté par milliers, lundi, à bagdad, alors que les partisans du puissant leader chiite poursuivaient leur sit-in au parlement.
+
+Audiovisuel public : le Sénat vote la suppression de la redevance
+Publicité lire la suitedans le cadre des mesures de soutien au pouvoir d'achat, le sénat a voté, dans la nuit de lundi à mardi 2 août, la suppression de la redevance tv, au terme d'un débat nourri sur le financement et l'indépendance de l'audiovisuel public. Promesse de campagned'un montant de 138 euros en métropole et de 88 euros outremer cette année, la redevance a rapporté 3,2 milliards d'euros sur les 3,8 milliards versés à l'audiovisuel public.
+
+En Californie, le plus vaste incendie de l'année gagne en intensité
+L'incendie, baptisé "mckinney", a détruit plus de 21 200 hectares de la forêt nationale de klamath, près de la ville d'yreka, dans le nord de la californie, a indiqué l'agence de lutte contre les incendies calfire. Publicité lire la suiteun incendie, le plus vaste de l'année en californie, progressait, dimanche 31 juillet, à travers les régions arides de l'état de l'ouest américain, attisé par des vents forts, détruisant des maisons et forçant des milliers de personnes à évacuer leurs domiciles, selon les autorités.
+
+'
+2022-08-02 19:10:13,262 | AI said: 'On se voit plus tard !'
+2022-08-02 19:11:50,267 | Base working directory: /home/vincent
+2022-08-02 19:11:50,687 | RSS feed registered: https://www.france24.com/fr/rss
+2022-08-02 19:11:50,687 | RSS feed registered: https://www.francetvinfo.fr/titres.rss
+2022-08-02 19:11:50,687 | Downloading articles from the provided RSS feeds
+2022-08-02 19:11:50,687 | Entering main loop
+2022-08-02 19:11:50,690 | The following intents are recognized: ['open_program', 'close_program', 'new_working_dir', 'copy', 'paste', 'copy_all', 'cut', 'cut_all', 'trash', 'trash_all', 'previous', 'open_file', 'rename', 'go_to_parent_dir', 'wikipedia', 'news']
+2022-08-02 19:11:50,690 | Speech recognition is off
+2022-08-02 19:11:50,690 | Speech synthesis is off
+2022-08-02 19:12:01,680 | Unable to retrieve content from URL https://www.france24.com/fr/vid%C3%A9o/20220731-essor-du-football-f%C3%A9minin-en-angleterre
+2022-08-02 19:12:02,082 | Unable to retrieve content from URL https://www.france24.com/fr/europe/20220731-en-direct-la-russie-dit-avoir-invit%C3%A9-des-experts-de-l-onu-%C3%A0-enqu%C3%AAter-sur-olenivka
+2022-08-02 19:12:28,885 | Generating summaries from the downloaded news articles
+2022-08-02 19:12:31,194 | News bulletin is ready
+2022-08-02 19:13:10,788 | User said: 'donne-moi les infos du jour'
+2022-08-02 19:13:11,215 | Intent: news
+2022-08-02 19:13:11,216 | AI said: 'Afghanistan : qui était Ayman al-Zawahiri, le successeur de Ben Laden à la tête d'Al-Qaïda ?
+Orpheline d'oussama ben laden, al-qaïda est devenue de plus en plus décentralisée, comme l’explique wassim nasr : sous zawahiri, en somalie ou au yémen par exemple, les filiales de la nébuleuse terroriste recevaient certes “des directives” de la maison-mère, mais agissaient comme bon leur semble, et si elles survivent aujourd’hui, c’est “par leurs propres moyens”. Il a tout de même “permis à al al-qaïda de survivre à l’état islamique, tout en maintenant de très bonnes relations avec les taliban, y compris après la mort d’oussama ben laden” nuance wassim nasr sur france 24. Publicité lire la suiteleader peu charismatique à la tête d’al-qaïda, comparé à son prédécesseur ben laden, l’égyptien ayman al-zawahiri, dont la mort a été annoncée, lundi1er août, par joe biden, a théorisé l’essaimage des franchises jihadistes sans vraiment les contrôler. "les franchises" d'al-qaïda au cœur de son pouvoirné le 19 juin 1951 à maadi, près du caire, au sein d’une famille bourgeoise, – son père était un médecin réputé et son grand-père un grand théologien de la mosquée d’al-azhar dans la capitale égyptienne –, ayman al
+
+DIRECT. Météo : la vigilance orange "canicule" concerne désormais 27 départements, des Pyrénées à l'Alsace
+Voici la carte pour ce matin :et pour cet après-midi :: et on commence en récapitulant l'actualité de la soirée :• le président américain joe biden a annoncé la mort d'ayman al-zawahiri, le chef d'al-qaïda, lors d'une "opération antiterroriste" menée ce week-end par les etats-unis à kaboul. Le président américain joe biden a annoncé la mort d'ayman al-zawahiri, le chef d'al-qaïda, lors d'une "opération antiterroriste" menée ce week-end par les etats-unis à kaboul. Le président américain joe biden a annoncé la mort d'ayman al-zawahiri, le chef d'al-qaïda, lors d'une "opération antiterroriste" menée ce week-end par les etats-unis à kaboul. Le président américain joe biden a annoncé la mort d'ayman al-zawahiri, le chef d'al-qaïda, lors d'une "opération antiterroriste" menée ce week-end par les etats-unis à kaboul. Le président américain joe biden a annoncé la mort d'ayman al-zawahiri, le chef d'al-qaïda, lors d'une "opération antiterroriste" menée ce week-end par les etats-unis à kaboul.
+
+France : quels risques la troisième canicule fait-elle peser sur les centrales nucléaires ?
+Si la saison estivale est souvent celle d’opérations de maintenance “de routine”, où les réacteurs sont rechargés en combustible en préparation de l’hiver, l’été que nous traversons est un peu “particulier”, ajoute valérie faudon : du fait des contrôles liés à la recherche de phénomènes de corrosion, lesquels ont forcé 12 réacteurs supplémentaires à l’arrêt, sur un parc de 56”. L’eau est effectivement indispensable au refroidissement des réacteurs, mais le lien avec la sécurité des centrales n’est “pas un sujet” dans notre pays, tranche valérie faudon. Angoissesce parc nucléaire étant complètement tributaire de l’eau, s'interroge johnny da silva, “comment ne ressentir aucune appréhension face au nombre croissant de rivières déjà asséchées en france ? Réelle, cette hausse de température générée par les centrales n'a pas d’impact significatif sur la vie aquatique, objecte valérie faudon : “les relevés effectués par edf depuis les années 70 montrent que la faune et la flore observées en amont des centrales ne diffère pas de celles étudiées en aval.
+
+Sécheresse : Il y a eu "4 000 contrôles" pour faire respecter les restrictions d'eau et cela "ne va pas s'arrêter", indique l'Office français de la biodiversité
+"les contrôles ne vont pas s'arrêter puisque les prévisions météo maintiennent une tension sur la ressource en eau", explique loïc obled, directeur général délégué "police, connaissance, expertise" à l’office français de la biodiversité, ce mardi sur franceinfo. On a fait à peu près 500 contrôles au mois de mai, 2 000 contrôles la semaine dernière et on a dédié la semaine qui vient de passer à une grande opération nationale de pédagogie et de contrôle. Loïc obled précise que des milliers de contrôles du respect des mesures de restrictions d'eau ont été effectués depuis le mois de mai. Les contrôles ne vont évidemment pas s'arrêter puisque les prévisions météo maintiennent une tension sur la ressource en eau qu'il nous faut préserver. Franceinfo : combien de contrôles faites-vous en ce moment avec vos équipes et est-ce que ce nombre augmente avec la sécheresse de ces dernières semaines ?
+
+En direct : le premier chargement de céréales ukrainiennes attendu à Istanbul "après minuit"
+16 h 46 : la russie dénonce l'"implication directe" des états-unis dans la guerre en ukrainela russie a estimé que les états-unis, première puissance militaire mondiale, étaient directement impliqués dans le conflit en ukraine, car les services de renseignement américains approuvent et coordonnentles frappes de lance-roquettes multiples américains himars par les forces ukrainiennes. 13 h 26 : le régiment ukrainien azov désigné "organisation terroriste" par la justice russela cour suprême russe a classé mardi le régiment ukrainien azov, célèbre pour avoir défendu marioupol en ukraine, comme "organisation terroriste", ce qui pourrait valoir de très lourdes poursuites à ses combattants faits prisonniers par la russie. 09 h 28 : le premier chargement de céréales ukrainiennes attendu à istanbul "après minuit"le premier chargement de céréales ukrainiennes exporté depuis l'invasion russe le 24 février, est attendu "après minuit", mardi 2 août, à istanbul, selon le ministère turc de la défense.
+
+'
+2022-08-02 19:16:15,872 | AI said: 'Au revoir !'
+2022-08-02 19:16:35,191 | Base working directory: /home/vincent
+2022-08-02 19:16:35,568 | RSS feed registered: https://www.lemonde.fr/rss/une.xml
+2022-08-02 19:16:35,571 | Downloading articles from the provided RSS feeds
+2022-08-02 19:16:35,571 | Entering main loop
+2022-08-02 19:16:35,573 | The following intents are recognized: ['open_program', 'close_program', 'new_working_dir', 'copy', 'paste', 'copy_all', 'cut', 'cut_all', 'trash', 'trash_all', 'previous', 'open_file', 'rename', 'go_to_parent_dir', 'wikipedia', 'news']
+2022-08-02 19:16:35,573 | Speech recognition is off
+2022-08-02 19:16:35,573 | Speech synthesis is off
+2022-08-02 19:16:46,094 | Generating summaries from the downloaded news articles
+2022-08-02 19:16:47,277 | News bulletin is ready
+2022-08-02 19:22:05,024 | User said: 'donne-moi les infos'
+2022-08-02 19:22:05,286 | Intent: news
+2022-08-02 19:22:05,286 | AI said: 'Nancy Pelosi, la présidente de la Chambre des représentants américaine, a atterri à Taïwan ; la Chine annonce des « actions militaires ciblées »
+Lire aussi : article réservé à nos abonnés la possible visite de nancy pelosi à taïwan exacerbe les tensions entre les etats-unis et la chinedénonciation immédiate de la chinepékin a immédiatement dénoncé l’attitude « extrêmement dangereuse » des etats-unis et annoncé des « actions militaires ciblées » visant à « défendre résolument la souveraineté nationale et l’intégrité territoriale et à fermement contrecarrer les ingérences extérieures et les tentatives séparatistes d’“indépendance de taïwan” ». Peu avant l’annonce de l’atterrissage de mme pelosi, la chaîne de télévision chinoise cgtn a rapporté que des « avions de chasse chinois su-35 » étaient en train de « traverser le détroit de taïwan », qui sépare la chine continentale de l’île revendiquée par pékin. Dès son arrivée, la haute responsable américaine a déclaré que sa visite montrait le « soutien inconditionnel » des etats-unis « à la dynamique démocratique de taïwan », tout en affirmant que sa venue ne « contredi[sait] » pas la politique américaine vis-à-vis de la chine.
+
+Guerre en Ukraine, en direct : le premier chargement de céréales ukrainiennes a atteint les côtes turques
+Après la mort de dizaines de prisonniers de guerre ukrainiens, kiev veut une enquête sur l’explosion à la prison où ils étaient détenus et des informations sur les survivantsaprès l’explosion d’un bâtiment de la prison d’olenivka, vendredi, qui a tué cinquante-trois prisonniers de guerre ukrainiens et en a blessé soixante-quinze autres, le responsable ukrainien des droits de l’homme, dmytro lubinets, a dit aujourd’hui regretter de devoir lutter pour établir la vérité sur cet événement funeste. Lubinets affirme avoir tenté d’établir un lien direct avec son homologue russe afin d’organiser une visite conjointe de la prison d’olenivka, une ville de l’est de l’ukraine tenue par les séparatistes soutenus par la russie. Pour sa part, kiev nie avoir effectué des tirs de roquettes ou d’artillerie à olenivka et accuse les russes d’avoir attaqué la prison pour dissimuler les tortures et les exécutions d’ukrainiens qui y ont eu lieu.
+
+Crise de l’hôpital : l’état de nombreux patients ne nécessite pas le recours aux urgences
+Lire aussi : article réservé à nos abonnés a l’entrée des services d’urgences, la régulation par le samu s’étend sur le territoirepour connaître le profil des patients qui se présentent aujourd’hui à cette « porte d’entrée » de l’hôpital, il n’existe pas d’indicateur unique ou qui ferait l’unanimité pour savoir combien peuvent être écartés sans risque. « ce n’est pas tant la prise en charge des “vraies urgences” qui pose problème et provoque l’affluence que les demandes de soins non programmés, dont la nature est variée, reposant sur des situations diverses (maladies chroniques, personnes âgées, détresse psychique ou sociale, ressentis divers…) », écrit-il. Au moins 120 services d’urgence font face à de grandes difficultés depuis la fin du mois de mai, selon le syndicat samu-urgences de france, certains devant fermer la nuit ou le week-end, faute d’effectifs suffisants. Un manque d’alternativemesurer et analyser « les passages évitables » paraît un « enjeu majeur » à la cour des comptes, qui évoque le sujet dans son rapport annuel de 2019, où elle s’inquiète de voir les services d’urgence « toujours trop sollicités ».
+
+Mort d’Ayman Al-Zawahiri : qu’est-ce que le missile Hellfire R9X que les Américains sont susceptibles d’avoir utilisé ?
+Les indices laissés après la frappe américaine sur la maison d’ayman al-zawahiri laissent donc penser, comme le souligne dans un tweet un ancien journaliste d’investigation américain, jay hancock, que la cia a fait usage d’un autre type de missile, dérivé du agm-114, le hellfire r9x. Des précédents, mais jamais de confirmationl’existence d’un tel missile avait été évoquée pour la première fois en mars 2017, quand un haut dirigeant d’al-qaida, abou kheir al-masri, avait été tué par une frappe de drone alors qu’il se déplaçait dans une voiture en syrie. - / afpaprès l’annonce de la mort du numéro un d’al-qaida, ayman al-zawahiri, par le président américain, lundi 1er août, les informations concernant l’arme utilisée divergent ou, pour le moins, restent floues. Dans la presse américaine, une enquête du wall street journal, en 2019, confirmait son utilisation par les américains après la mort, la même année, de jamal al-badaoui, considéré comme l’adjoint du cerveau de l’attentat-suicide qui, en octobre 2000, a visé le destroyer américain uss cole dans le port d’aden.
+
+Emploi : hausse des ruptures conventionnelles en 2021
+Le fait qu’elle soit concomitante à une hausse très importante des démissions laisse penser que la hausse des ruptures conventionnelles est largement liée à des situations où c’est le salarié qui veut partir, observe bertrand martinot, économiste spécialiste du marché du travail à l’institut montaigne, qui reste prudent. « les ruptures se substituent aux démissions car elles permettent de toucher l’assurance-chômage et d’avoir une sécurité, mais les chiffres prouvent que les gens ne se réfugient pas dans l’inactivité ou le chômage, ils changent beaucoup d’activité ou d’employeur », précise bertrand martinot. Lire aussi : article réservé à nos abonnés « c’est marrant, je ne suis pas sûr d’avoir envie de retravailler » : les vantards de la rupture conventionnellecette remontée peut-elle être mise en relation avec le mouvement de « grande rotation » des salariés, qui se reconvertissent ou changent d’employeur depuis la pandémie de covid ?
+
+'
+2022-08-02 19:24:00,972 | AI said: 'On se voit plus tard !'
+2022-08-02 19:24:28,101 | Base working directory: /home/vincent
+2022-08-02 19:24:28,576 | RSS feed registered: https://www.lemonde.fr/rss/une.xml
+2022-08-02 19:24:28,577 | Downloading articles from the provided RSS feeds
+2022-08-02 19:24:28,581 | Entering main loop
+2022-08-02 19:24:28,582 | The following intents are recognized: ['open_program', 'close_program', 'new_working_dir', 'copy', 'paste', 'copy_all', 'cut', 'cut_all', 'trash', 'trash_all', 'previous', 'open_file', 'rename', 'go_to_parent_dir', 'wikipedia', 'news']
+2022-08-02 19:24:28,582 | Speech recognition is off
+2022-08-02 19:24:28,583 | Speech synthesis is off
+2022-08-02 19:24:47,723 | Generating summaries from the downloaded news articles
+2022-08-02 19:24:49,426 | News bulletin is ready
+2022-08-02 19:25:00,494 | User said: 'donne-moi les infos'
+2022-08-02 19:25:00,718 | Intent: news
+2022-08-02 19:25:00,718 | AI said: 'Nancy Pelosi, la présidente de la Chambre des représentants américaine, a atterri à Taïwan ; la Chine annonce des « actions militaires ciblées »
+Lire aussi : article réservé à nos abonnés la possible visite de nancy pelosi à taïwan exacerbe les tensions entre les etats-unis et la chine
+
+dénonciation immédiate de la chine
+
+pékin a immédiatement dénoncé l’attitude « extrêmement dangereuse » des etats-unis et annoncé des « actions militaires ciblées » visant à « défendre résolument la souveraineté nationale et l’intégrité territoriale et à fermement contrecarrer les ingérences extérieures et les tentatives séparatistes d’“indépendance de taïwan” ». Peu avant l’annonce de l’atterrissage de mme pelosi, la chaîne de télévision chinoise cgtn a rapporté que des « avions de chasse chinois su-35 » étaient en train de « traverser le détroit de taïwan », qui sépare la chine continentale de l’île revendiquée par pékin. Dès son arrivée, la haute responsable américaine a déclaré que sa visite montrait le « soutien inconditionnel » des etats-unis « à la dynamique démocratique de taïwan », tout en affirmant que sa venue ne « contredi[sait] » pas la politique américaine vis-à-vis de la chine.
+
+Guerre en Ukraine, en direct : le premier chargement de céréales ukrainiennes a atteint les côtes turques
+Après la mort de dizaines de prisonniers de guerre ukrainiens, kiev veut une enquête sur l’explosion à la prison où ils étaient détenus et des informations sur les survivants
+
+après l’explosion d’un bâtiment de la prison d’olenivka, vendredi, qui a tué cinquante-trois prisonniers de guerre ukrainiens et en a blessé soixante-quinze autres, le responsable ukrainien des droits de l’homme, dmytro lubinets, a dit aujourd’hui regretter de devoir lutter pour établir la vérité sur cet événement funeste. Lubinets affirme avoir tenté d’établir un lien direct avec son homologue russe afin d’organiser une visite conjointe de la prison d’olenivka, une ville de l’est de l’ukraine tenue par les séparatistes soutenus par la russie. Pour sa part, kiev nie avoir effectué des tirs de roquettes ou d’artillerie à olenivka et accuse les russes d’avoir attaqué la prison pour dissimuler les tortures et les exécutions d’ukrainiens qui y ont eu lieu.
+
+Crise de l’hôpital : l’état de nombreux patients ne nécessite pas le recours aux urgences
+Lire aussi : article réservé à nos abonnés a l’entrée des services d’urgences, la régulation par le samu s’étend sur le territoire
+
+pour connaître le profil des patients qui se présentent aujourd’hui à cette « porte d’entrée » de l’hôpital, il n’existe pas d’indicateur unique ou qui ferait l’unanimité pour savoir combien peuvent être écartés sans risque. « ce n’est pas tant la prise en charge des “vraies urgences” qui pose problème et provoque l’affluence que les demandes de soins non programmés, dont la nature est variée, reposant sur des situations diverses (maladies chroniques, personnes âgées, détresse psychique ou sociale, ressentis divers…) », écrit-il. Au moins 120 services d’urgence font face à de grandes difficultés depuis la fin du mois de mai, selon le syndicat samu-urgences de france, certains devant fermer la nuit ou le week-end, faute d’effectifs suffisants. Un manque d’alternative
+
+mesurer et analyser « les passages évitables » paraît un « enjeu majeur » à la cour des comptes, qui évoque le sujet dans son rapport annuel de 2019, où elle s’inquiète de voir les services d’urgence « toujours trop sollicités ».
+
+Mort d’Ayman Al-Zawahiri : qu’est-ce que le missile Hellfire R9X que les Américains sont susceptibles d’avoir utilisé ?
+Les indices laissés après la frappe américaine sur la maison d’ayman al-zawahiri laissent donc penser, comme le souligne dans un tweet un ancien journaliste d’investigation américain, jay hancock, que la cia a fait usage d’un autre type de missile, dérivé du agm-114, le hellfire r9x. Des précédents, mais jamais de confirmation
+
+l’existence d’un tel missile avait été évoquée pour la première fois en mars 2017, quand un haut dirigeant d’al-qaida, abou kheir al-masri, avait été tué par une frappe de drone alors qu’il se déplaçait dans une voiture en syrie. - / afp
+
+après l’annonce de la mort du numéro un d’al-qaida, ayman al-zawahiri, par le président américain, lundi 1er août, les informations concernant l’arme utilisée divergent ou, pour le moins, restent floues. Dans la presse américaine, une enquête du wall street journal, en 2019, confirmait son utilisation par les américains après la mort, la même année, de jamal al-badaoui, considéré comme l’adjoint du cerveau de l’attentat-suicide qui, en octobre 2000, a visé le destroyer américain uss cole dans le port d’aden.
+
+Emploi : hausse des ruptures conventionnelles en 2021
+Le fait qu’elle soit concomitante à une hausse très importante des démissions laisse penser que la hausse des ruptures conventionnelles est largement liée à des situations où c’est le salarié qui veut partir, observe bertrand martinot, économiste spécialiste du marché du travail à l’institut montaigne, qui reste prudent. « les ruptures se substituent aux démissions car elles permettent de toucher l’assurance-chômage et d’avoir une sécurité, mais les chiffres prouvent que les gens ne se réfugient pas dans l’inactivité ou le chômage, ils changent beaucoup d’activité ou d’employeur », précise bertrand martinot. Lire aussi : article réservé à nos abonnés « c’est marrant, je ne suis pas sûr d’avoir envie de retravailler » : les vantards de la rupture conventionnelle
+
+cette remontée peut-elle être mise en relation avec le mouvement de « grande rotation » des salariés, qui se reconvertissent ou changent d’employeur depuis la pandémie de covid ?
+
+'
+2022-08-02 19:26:52,337 | AI said: 'On se voit plus tard !'
+2022-08-02 19:27:01,518 | Base working directory: /home/vincent
+2022-08-02 19:27:01,814 | RSS feed registered: https://www.francetvinfo.fr/titres.rss
+2022-08-02 19:27:01,814 | Downloading articles from the provided RSS feeds
+2022-08-02 19:27:01,818 | Entering main loop
+2022-08-02 19:27:01,819 | The following intents are recognized: ['open_program', 'close_program', 'new_working_dir', 'copy', 'paste', 'copy_all', 'cut', 'cut_all', 'trash', 'trash_all', 'previous', 'open_file', 'rename', 'go_to_parent_dir', 'wikipedia', 'news']
+2022-08-02 19:27:01,819 | Speech recognition is off
+2022-08-02 19:27:01,820 | Speech synthesis is off
+2022-08-02 19:27:09,228 | User said: 'donne-moi les infos'
+2022-08-02 19:27:09,424 | Intent: news
+2022-08-02 19:27:09,424 | AI said: 'Attendez un peu, je n'ai pas fini de préparer le bulletin d'informations'
+2022-08-02 19:27:17,881 | Generating summaries from the downloaded news articles
+2022-08-02 19:27:19,231 | News bulletin is ready
+2022-08-02 19:27:20,055 | User said: 'donne-moi les infos'
+2022-08-02 19:27:20,131 | Intent: news
+2022-08-02 19:27:20,131 | AI said: 'Sécheresse : "vigilance", "alerte", "crise"... Quelles sont les différences entre les quatre niveaux d'alerte incitant à économiser l'eau ?
+Les seuils d'alerte sécheresse en france au 2 août 2022 selon le site gouvernemental propluvia, qui répertorie les arrêtés de restriction d'usages de l'eau. (capture d'ecran / propluvia / france televisions)
+
+l'ensemble de la france hexagonale est concerné par l'un des quatre niveaux d'alerte définis par l'etat dans le cadre du "plan sécheresse" : "vigilance", "alerte", "alerte renforcée" et "seuil de crise". Le seuil de "crise"
+
+lorsque les restrictions des trois premiers seuils se révèlent insuffisantes, le seuil de "crise" est déclenché, afin de n'autoriser que les prélèvements prioritaires (alimentation en eau potable, usages en lien avec la salubrité, la santé et la sécurité...)
+
+dans les zones classées en niveau de "crise" (en rouge sur la carte), soit 46 départements au 2 août, les agriculteurs ont interdiction d'irriguer leurs cultures, y compris par un système d'irrigation localisée (goutte-à-goutte, micro-aspersion...). Le seuil d'"alerte"
+
+le seuil d'alerte est déclenché lorsque la coexistence de tous les usages (alimentation en eau potable, arrosage, irrigation, etc.) et le bon fonctionnement des milieux aquatiques n'est plus assurée.
+
+DIRECT. Météo : la vigilance orange "canicule" concerne désormais 27 départements, des Pyrénées à l'Alsace
+Voici la carte pour ce matin :
+
+
+
+
+
+
+
+et pour cet après-midi :
+
+
+
+
+
+: et on commence en récapitulant l'actualité de la soirée :
+
+
+
+• le président américain joe biden a annoncé la mort d'ayman al-zawahiri, le chef d'al-qaïda, lors d'une "opération antiterroriste" menée ce week-end par les etats-unis à kaboul. Le président américain joe biden a annoncé la mort d'ayman al-zawahiri, le chef d'al-qaïda, lors d'une "opération antiterroriste" menée ce week-end par les etats-unis à kaboul. Le président américain joe biden a annoncé la mort d'ayman al-zawahiri, le chef d'al-qaïda, lors d'une "opération antiterroriste" menée ce week-end par les etats-unis à kaboul. Le président américain joe biden a annoncé la mort d'ayman al-zawahiri, le chef d'al-qaïda, lors d'une "opération antiterroriste" menée ce week-end par les etats-unis à kaboul. Le président américain joe biden a annoncé la mort d'ayman al-zawahiri, le chef d'al-qaïda, lors d'une "opération antiterroriste" menée ce week-end par les etats-unis à kaboul.
+
+Sécheresse : "il va falloir compenser notre retard dans le recyclage des eaux usées", explique Veolia
+Parmi les projets en cours, susceptible de démocratiser la transformation des eaux usées en eau potable : celui de vendée eau qui prévoit d'utiliser les eaux de la station d'épuration des sables d'olonne pour garantir la consommation de 200 000 habitants. Une technologie efficace pour affronter la sécheresse et qui devrait s'imposer en france dans les prochaines années, défend mardi 2 août sur franceinfo pierre ribaute, directeur général de veolia eau france. C'est le principe du "recyclage des eaux usées", qui consiste à réinjecter les eaux sales dans le circuit de l'eau classique, grâce à un traitement spécifique. Comme en israël, à malte, en italie ou en espagne, des pays dans lesquels le manque d'eau a conduit à recycler les eaux usées. Se servir des eaux usées pour irriguer les champs, faire tourner des usines et même produire de l'eau potable : "
+
+selon pierre ribaute, le changement climatique va de toutes les manières contraindre la france à faire des efforts : "notre pays a un climat tempéré qui va évoluer vers un climat semi-aride.
+
+Sécheresse : en juillet, un manque de précipitations d'une ampleur historique
+Un déficit de précipitations de l'ordre de 80%
+
+"le déficit de précipitations par rapport aux normales dépasse les 80% sur le mois de juillet écoulé, après un printemps qui était déjà globalement sec. Rendez-vous compte, au mois de juillet 2022, près de 9,7 millimètres de cumul de précipitation agrégés sur l'ensemble du territoire français. Le mois de juillet 2022 est le deuxième le plus sec jamais enregistré en france. Parmi eux, 48 subissent des mesures assez drastiques, qui interdisent d'arroser ses plantes, de laver sa voiture voire d'arroser certaines cultures agricoles. Ça a aggravé la sécheresse des sols, notamment", explique frédéric long, prévisionniste à météo france. 93 départements sont désormais concernés par des mesures de restriction du fait de la sécheresse en france. "il faut dire que le mois de juillet que nous venons de passer n'arrange rien. C'est le second le plus sec jamais enregistré sur notre territoire", détaille la journaliste sophia dollé.
+
+Variole du singe : quatre questions sur les morts récentes survenues au Brésil, en Espagne, en Inde et au Pérou
+Variole du singe : quatre questions sur les morts récentes survenues au brésil, en espagne, en inde et au pérou
+
+les morts se sont enchaînées ces derniers jours, portant à dix le nombre de décès de personnes porteuses de la variole du singe dans le monde depuis mai. Après l'espagne, qui a confirmé la mort de deux patients atteints de la variole du singe ce week-end, l'inde et le pérou ont annoncé, lundi 1er août, la mort d'une personne porteuse du virus dans leur pays. jeudi, le brésil avait lancé l'alerte, en annonçant le premier décès d'une personne atteinte de la maladie, hors du continent africain. Avec près de 4 300 personnes infectées au 29 juillet, selon les chiffres fournis par le ministère de la santé espagnol (en espagnol), l'espagne est le pays européen qui fait face au plus grand nombre de cas de variole du singe recensés.
+
+'
+2022-08-02 19:31:25,704 | AI said: 'À plus tard !'
+2022-08-03 19:03:25,370 | Base working directory: /home/vincent
+2022-08-03 19:03:25,953 | RSS feed registered: https://feeds.leparisien.fr/leparisien/rss/international
+2022-08-03 19:03:25,954 | Downloading articles from the provided RSS feeds
+2022-08-03 19:03:25,954 | Entering main loop
+2022-08-03 19:03:25,959 | The following intents are recognized: ['open_program', 'close_program', 'new_working_dir', 'copy', 'paste', 'copy_all', 'cut', 'cut_all', 'trash', 'trash_all', 'previous', 'open_file', 'rename', 'go_to_parent_dir', 'wikipedia', 'news']
+2022-08-03 19:03:25,959 | Speech recognition is off
+2022-08-03 19:03:38,803 | User said: 'donne-moi les infos s'il te plaît'
+2022-08-03 19:03:39,076 | Intent: news
+2022-08-03 19:03:39,356 | AI said: 'Les informations ne sont pas encore prêtes'
+2022-08-03 19:03:54,346 | Generating summaries from the downloaded news articles
+2022-08-03 19:03:55,487 | News bulletin is ready
+2022-08-03 19:04:26,077 | User said: 'donne-moi les infos s'il te plaît'
+2022-08-03 19:04:26,161 | Intent: news
+2022-08-03 19:04:52,071 | AI said: 'Taïwan : 27 avions militaires chinois entrent dans la zone de défense aérienne de l’île
+À lire aussi taïwan : cinq minutes pour comprendre les tensions entre la chine et les états-unis
+
+le ministère chinois de la défense avait annoncé des « actions militaires ciblées », avec une série de manoeuvres militaires autour de l’île qui commenceront jeudi, dont « le tir à munitions réelles de longue portée » dans le détroit de taïwan, qui sépare l’île de la chine continentale. Mais la chine « répliquera avec vigueur » si l’armée taïwanaise cherche à perturber ses exercices militaires, a déclaré mercredi soir à l’afp une source anonyme au sein de l’armée chinoise.
+
+Taïwan : Pelosi assure être venue «en paix», Pékin menace «ceux qui offensent la Chine»
+Le ministère chinois de la défense a quant à lui promis des « actions militaires ciblées », avec une série de manœuvres militaires autour de l’île qui commenceront mercredi, dont « le tir de munitions réelles de longue portée » dans le détroit de taïwan, qui sépare l’île de la chine continentale. Dès son arrivée à taïwan, le ministère chinois des affaires étrangères a dénoncé « une grave violation » des engagements américains vis-à-vis de la chine, qui « porte gravement atteinte à la paix et à la stabilité » régionales.
+
+Avion de Nancy Pelosi : le site de pistage des vols Flightradar24 explose son record d’audience
+Après son décollage de kuala lumpur, son avion militaire était déjà suivi par plus de 200 000 personnes pendant le survol de l’indonésie, et ce chiffre « a continué à monter au fur et à mesure que l’appareil se rapprochait de taïwan », relate le site web. Ce sont les chiffres assez fous de flightradar24, spécialisé dans le pistage de vols, concernant l’avion qui a emmené la présidente de la chambre des représentants américaine nancy pelosi à taïwan mardi. « la visite de notre délégation parlementaire à taïwan démontre le soutien inconditionnel de l’amérique à la vibrante démocratie de taïwan », a-t-elle déclaré dans un communiqué publié peu après son arrivée.
+
+Otan : le Parlement français ratifie l’adhésion de la Suède et de la Finlande
+Ce « tournant » provient du « bouleversement de nos repères géopolitiques » avec l’invasion russe en ukraine, le recours d’une « puissance » à « la force brute » avec une « violence inouïe », des « exactions, viols, assassinats et déportations », a fustigé la ministre. Une « décision historique et majeure »
+
+la france rejoint « vingt alliés » qui « ont déjà ratifié les protocoles », a indiqué la ministre française des affaires étrangères catherine colonna. A l’extrême droite, laurent jacobelli (rn) a critiqué « un signal de défi à la russie », avec ce processus d’adhésion, en présentant l’otan comme une « vitrine commerciale du complexe militaro
+
+Ukraine : la situation est «volatile» à la centrale nucléaire de Zaporijjia
+« la situation est vraiment volatile » a déclaré rafael grossi, le directeur général de l’agence internationale de l’énergie atomique (aiea) lors d’une conférence de presse au siège des nations unies à new york où se tient une conférence des 191 états signataires du traité sur la non-prolifération des armes nucléaires. Des tirs depuis la centrale
+
+lundi, le secrétaire d’état américain antony blinken avait accusé la russie d’utiliser cette centrale, la plus grande d’europe, « comme une base militaire pour tirer sur les ukrainiens en sachant qu’ils ne peuvent pas riposter parce qu’ils risqueraient de frapper un réacteur nucléaire ou des déchets hautement radioactifs ».
+
+Malgré la fin de la politique de l’enfant unique, la Chine attend une baisse de sa population d’ici 2025
+À lire aussi chine : pourquoi la première baisse démographique depuis 60 ans est une bombe à retardement
+
+pour encourager les naissances, le ministère préconise de réduire la pression financière sur les couples par le biais de politiques en matière de logement, d’éducation et de fiscalité. La population de la chine va commencer à chuter d’ici 2025, malgré la fin de la politique de l’enfant unique censée encourager les naissances dans le pays le plus peuplé du monde, a indiqué le ministère de la santé. « notre politique en matière d’aide aux naissances est imparfait, il y a un grand écart par rapport à la situation du développement démographique et les attentes de la population », a souligné le ministère de la santé.
+
+'
+2022-08-03 19:06:02,868 | User said: 'ça suffit merci'
+2022-08-03 19:06:02,942 | Intent: stop
+2022-08-03 19:06:22,646 | AI said: 'On se voit plus tard !'
+2022-08-03 19:12:37,559 | Base working directory: /home/vincent
+2022-08-03 19:12:38,260 | RSS feed registered: https://feeds.leparisien.fr/leparisien/rss/international
+2022-08-03 19:12:38,262 | Downloading articles from the provided RSS feeds
+2022-08-03 19:12:38,263 | Entering main loop
+2022-08-03 19:12:38,266 | The following intents are recognized: ['open_program', 'close_program', 'new_working_dir', 'copy', 'paste', 'copy_all', 'cut', 'cut_all', 'trash', 'trash_all', 'previous', 'open_file', 'rename', 'go_to_parent_dir', 'wikipedia', 'news']
+2022-08-03 19:12:38,266 | Speech recognition is off
+2022-08-03 19:12:59,866 | Generating summaries from the downloaded news articles
+2022-08-03 19:12:59,988 | User said: 'qui est jules césar'
+2022-08-03 19:13:00,536 | Intent: wikipedia
+2022-08-03 19:13:01,129 | News bulletin is ready
+2022-08-03 19:13:09,610 | AI said: 'Jules César (latin : Caius Iulius Caesar IV à sa naissance, Imperator Iulius Caesar Divus après sa mort), aussi simplement appelé César, est un général, homme d'État et écrivain romain, né le 12 ou le 13 juillet 100 av. J.-C. à Rome et mort le 15 mars 44 av. J.-C. (aux ides de mars) dans la même ville.
+Son parcours unique, au cœur du dernier siècle de la République romaine — bouleversée par les tensions sociales et les guerres civiles —, marque le monde romain et l'histoire universelle. Ambitieux, il s'appuie sur le courant réformateur et démagogue (populares) qui traverse la cité romaine pour favoriser son ascension politique.'
+2022-08-03 19:13:16,631 | User said: 'arrête'
+2022-08-03 19:13:16,706 | Intent: stop
+2022-08-03 19:13:17,511 | AI said: 'On se voit plus tard !'
+2022-08-03 19:13:53,303 | Base working directory: /home/vincent
+2022-08-03 19:13:53,725 | RSS feed registered: https://feeds.leparisien.fr/leparisien/rss/international
+2022-08-03 19:13:53,726 | Downloading articles from the provided RSS feeds
+2022-08-03 19:13:53,726 | Entering main loop
+2022-08-03 19:13:53,729 | The following intents are recognized: ['open_program', 'close_program', 'new_working_dir', 'copy', 'paste', 'copy_all', 'cut', 'cut_all', 'trash', 'trash_all', 'previous', 'open_file', 'rename', 'go_to_parent_dir', 'wikipedia', 'news']
+2022-08-03 19:13:53,730 | Speech recognition is off
+2022-08-03 19:14:02,794 | User said: 'qui est jules césar'
+2022-08-03 19:14:02,980 | Intent: wikipedia
+2022-08-03 19:14:08,707 | AI said: 'Jules César (latin : Caius Iulius Caesar IV à sa naissance, Imperator Iulius Caesar Divus après sa mort), aussi simplement appelé César, est un général, homme d'État et écrivain romain, né le 12 ou le 13 juillet 100 av. J.-C. à Rome et mort le 15 mars 44 av. J.-C. (aux ides de mars) dans la même ville.
+Son parcours unique, au cœur du dernier siècle de la République romaine — bouleversée par les tensions sociales et les guerres civiles —, marque le monde romain et l'histoire universelle. Ambitieux, il s'appuie sur le courant réformateur et démagogue (populares) qui traverse la cité romaine pour favoriser son ascension politique.'
+2022-08-03 19:14:13,444 | Generating summaries from the downloaded news articles
+2022-08-03 19:14:14,581 | News bulletin is ready
+2022-08-03 19:14:15,708 | AI said: 'Au revoir !'
+2022-08-03 19:14:31,058 | Base working directory: /home/vincent
+2022-08-03 19:14:31,475 | RSS feed registered: https://feeds.leparisien.fr/leparisien/rss/international
+2022-08-03 19:14:31,475 | Downloading articles from the provided RSS feeds
+2022-08-03 19:14:31,476 | Entering main loop
+2022-08-03 19:14:31,478 | The following intents are recognized: ['open_program', 'close_program', 'new_working_dir', 'copy', 'paste', 'copy_all', 'cut', 'cut_all', 'trash', 'trash_all', 'previous', 'open_file', 'rename', 'go_to_parent_dir', 'wikipedia', 'news']
+2022-08-03 19:14:31,478 | Speech recognition is off
+2022-08-03 19:14:36,199 | User said: 'qui est césar'
+2022-08-03 19:14:36,372 | Intent: wikipedia
+2022-08-03 19:14:39,629 | AI said: 'Désolé, je n'ai pas trouvé d'article correspondant sur Wikipédia'
+2022-08-03 19:14:43,536 | AI said: 'Au revoir !'

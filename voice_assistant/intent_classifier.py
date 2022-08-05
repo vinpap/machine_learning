@@ -25,20 +25,20 @@ class Intent_classifier(IIntent_classifier):
         # words and classes contain the vocabulary and the different possible
         # intents the deep-learning model is using
         # The pre-trained deep-learning model itself
-        self._classes = pickle.load(open('model/classifier_intents.pkl','rb'))
+        self._classes = pickle.load(open('models/intent_classifier/classifier_intents.pkl','rb'))
 
         if self.language == "en":
             self._lemmatizer = WordNetLemmatizer()
 
-            self._words = pickle.load(open('model/words_en.pkl','rb'))
-            self._model = load_model('model/classifier_model_en.h5')
+            self._words = pickle.load(open('models/intent_classifier/words_en.pkl','rb'))
+            self._model = load_model('models/intent_classifier/classifier_model_en.h5')
 
         elif self.language == "fr":
 
             self._nlp = self._env.language_model
 
-            self._words = pickle.load(open('model/words_fr.pkl','rb'))
-            self._model = load_model('model/classifier_model_fr.h5')
+            self._words = pickle.load(open('models/intent_classifier/words_fr.pkl','rb'))
+            self._model = load_model('models/intent_classifier/classifier_model_fr.h5')
 
         else: raise ValueError("Language code not recognized")
 
