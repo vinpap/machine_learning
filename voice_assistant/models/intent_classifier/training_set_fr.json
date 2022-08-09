@@ -3634,5 +3634,205 @@
     [
         "je veux un résumé de ce qu'il s'est passé aujourd'hui",
         "news"
+    ],
+    [
+        "c'est quoi la météo",
+        "weather"
+    ],
+    [
+        "comment est la météo",
+        "weather"
+    ],
+    [
+        "parle-moi de la météo d'aujourd'hui",
+        "weather"
+    ],
+    [
+        "quelle est la météo pour aujourd'hui",
+        "weather"
+    ],
+    [
+        "tu peux me dire comment sera la météo aujourd'hui",
+        "weather"
+    ],
+    [
+        "comment est la météo",
+        "weather"
+    ],
+    [
+        "c'est quoi la météo du jour",
+        "weather"
+    ],
+    [
+        "parle-moi de la météo du jour",
+        "weather"
+    ],
+    [
+        "comment sera la météo",
+        "weather"
+    ],
+    [
+        "est-ce qu'il va pleuvoir aujourd'hui",
+        "weather"
+    ],
+    [
+        "est-ce qu'il va y avoir du soleil",
+        "weather"
+    ],
+    [
+        "il y aura de la neige aujourd'hui",
+        "weather"
+    ],
+    [
+        "est-ce qu'il va pleuvoir",
+        "weather"
+    ],
+    [
+        "tu peux me dire si il va pleuvoir aujourd'hui",
+        "weather"
+    ],
+    [
+        "je veux savoir comment sera la météo aujourd'hui",
+        "weather"
+    ],
+    [
+        "quelles sont les prévisions météo pour aujourd'hui",
+        "weather"
+    ],
+    [
+        "quelles sont les prévisions aujourd'hui",
+        "weather"
+    ],
+    [
+        "est-ce qu'il doit pleuvoir aujourd'hui",
+        "weather"
+    ],
+    [
+        "est-ce qu'il y a de la pluie prévue aujourd'hui",
+        "weather"
+    ],
+    [
+        "est-ce qu'il va faire chaud aujourd'hui",
+        "weather"
+    ],
+    [
+        "est-ce qu'il va faire froid aujourd'hui",
+        "weather"
+    ],
+    [
+        "le temps est-il chaud aujourd'hui",
+        "weather"
+    ],
+    [
+        "tu pourrais me dire si il va faire froid aujourd'hui",
+        "weather"
+    ],
+    [
+        "parle-moi des prévisions météorologiques pour aujourd'hui",
+        "weather"
+    ],
+    [
+        "donne-moi les prévisions météorologiques",
+        "weather"
+    ],
+    [
+        "tu peux me donner les prévisions météo pour aujourd'hui",
+        "weather"
+    ],
+    [
+        "quelles sont les prévisions",
+        "weather"
+    ],
+    [
+        "est-ce qu'il doit pleuvoir aujourd'hui",
+        "weather"
+    ],
+    [
+        "est-ce que la météo est bonne aujourd'hui",
+        "weather"
+    ],
+    [
+        "est-ce que le temps va être ensoleillé",
+        "weather"
+    ],
+    [
+        "donne-moi la météo s'il te plaît",
+        "weather"
+    ],
+    [
+        "donne-moi la météo",
+        "weather"
+    ],
+    [
+        "quelle sera la météo aujourd'hui",
+        "weather"
+    ],
+    [
+        "parle-moi de la météo",
+        "weather"
+    ],
+    [
+        "est-ce qu'il va faire beau aujourd'hui",
+        "weather"
+    ],
+    [
+        "y a-t-il de la pluie de prévue aujourd'hui",
+        "weather"
+    ],
+    [
+        "est-ce qu'il va neiger",
+        "weather"
+    ],
+    [
+        "est-ce qu'il y aura de la neige aujourd'hui",
+        "weather"
+    ],
+    [
+        "est-ce que le temps est bon ou mauvais",
+        "weather"
+    ],
+    [
+        "va-t-il faire mauvais aujourd'hui",
+        "weather"
+    ],
+    [
+        "la météo est-elle bonne ou mauvaise",
+        "weather"
+    ],
+    [
+        "comment sont les prévisions météo",
+        "weather"
+    ],
+    [
+        "est-ce que je dois m'inquiéter du mauvais temps",
+        "weather"
+    ],
+    [
+        "dis-moi s'il va faire mauvais aujourd'hui",
+        "weather"
+    ],
+    [
+        "je veux des informations sur les prévisions météorologiques pour aujourd'hui",
+        "weather"
+    ],
+    [
+        "donne-moi les prévisions météo pour aujourd'hui",
+        "weather"
+    ],
+    [
+        "je veux savoir la météo d'aujourd'hui",
+        "weather"
+    ],
+    [
+        "donne-moi la météo du jour s'il te plaît",
+        "weather"
+    ],
+    [
+        "dis-moi s'il va faire beau aujourd'hui",
+        "weather"
+    ],
+    [
+        "et pour la météo d'aujourd'hui",
+        "weather"
     ]
 ]

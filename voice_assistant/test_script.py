@@ -8,6 +8,7 @@ from text_to_speech import Text_to_speech
 import desktop
 from wikipedia_search import Wikipedia
 from news import News
+from weather import Weather
 
 logging.basicConfig(filename='voice_assistant.log',
 level=logging.INFO,
@@ -37,6 +38,7 @@ s_go_to_parent_dir = desktop.Go_to_parent_dir()
 
 s_wikipedia = Wikipedia()
 s_news = News()
+s_weather = Weather()
 
 voice_assistant.add_intents([s_open_program,
                             s_close_program,
@@ -53,6 +55,7 @@ voice_assistant.add_intents([s_open_program,
                             s_rename,
                             s_go_to_parent_dir,
                             s_wikipedia,
-                            s_news])
+                            s_news,
+                            s_weather])
 
 voice_assistant.run()

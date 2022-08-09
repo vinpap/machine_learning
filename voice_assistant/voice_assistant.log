@@ -290,3 +290,38 @@ Son parcours unique, au cœur du dernier siècle de la République romaine — b
 2022-08-03 19:14:36,372 | Intent: wikipedia
 2022-08-03 19:14:39,629 | AI said: 'Désolé, je n'ai pas trouvé d'article correspondant sur Wikipédia'
 2022-08-03 19:14:43,536 | AI said: 'Au revoir !'
+2022-08-09 16:53:52,751 | Base working directory: /home/vincent
+2022-08-09 16:53:53,588 | RSS feed registered: https://feeds.leparisien.fr/leparisien/rss/international
+2022-08-09 16:53:53,589 | Downloading articles from the provided RSS feeds
+2022-08-09 16:53:53,589 | Entering main loop
+2022-08-09 16:53:53,593 | The following intents are recognized: ['open_program', 'close_program', 'new_working_dir', 'copy', 'paste', 'copy_all', 'cut', 'cut_all', 'trash', 'trash_all', 'previous', 'open_file', 'rename', 'go_to_parent_dir', 'wikipedia', 'news', 'weather']
+2022-08-09 16:53:53,593 | Speech recognition is off
+2022-08-09 16:54:15,730 | AI said: 'On se voit plus tard !'
+2022-08-09 16:54:42,850 | Base working directory: /home/vincent
+2022-08-09 16:54:43,272 | RSS feed registered: https://feeds.leparisien.fr/leparisien/rss/international
+2022-08-09 16:54:43,273 | Downloading articles from the provided RSS feeds
+2022-08-09 16:58:07,905 | Base working directory: /home/vincent
+2022-08-09 16:58:08,312 | RSS feed registered: https://feeds.leparisien.fr/leparisien/rss/international
+2022-08-09 16:58:08,315 | Downloading articles from the provided RSS feeds
+2022-08-09 16:58:08,315 | Unable to retrieve city name for the weather forecast feature. Switching to geolocation instead, accuracy may not be as good
+2022-08-09 16:58:08,617 | Requested http://ipinfo.io/json
+2022-08-09 16:58:27,687 | Generating summaries from the downloaded news articles
+2022-08-09 16:58:28,958 | News bulletin is ready
+2022-08-09 16:58:55,061 | Base working directory: /home/vincent
+2022-08-09 16:58:55,558 | RSS feed registered: https://feeds.leparisien.fr/leparisien/rss/international
+2022-08-09 16:58:55,561 | Downloading articles from the provided RSS feeds
+2022-08-09 16:58:55,565 | Unable to retrieve city name for the weather forecast feature. Switching to geolocation instead, accuracy may not be as good
+2022-08-09 16:58:56,144 | Requested http://ipinfo.io/json
+2022-08-09 16:59:18,313 | Generating summaries from the downloaded news articles
+2022-08-09 16:59:19,887 | News bulletin is ready
+2022-08-09 16:59:57,054 | Base working directory: /home/vincent
+2022-08-09 16:59:57,406 | RSS feed registered: https://feeds.leparisien.fr/leparisien/rss/international
+2022-08-09 16:59:57,406 | Downloading articles from the provided RSS feeds
+2022-08-09 16:59:57,406 | Unable to retrieve city name for the weather forecast feature. Switching to geolocation instead, accuracy may not be as good
+2022-08-09 16:59:57,786 | Requested http://ipinfo.io/json
+2022-08-09 16:59:57,787 | Entering main loop
+2022-08-09 16:59:57,787 | The following intents are recognized: ['open_program', 'close_program', 'new_working_dir', 'copy', 'paste', 'copy_all', 'cut', 'cut_all', 'trash', 'trash_all', 'previous', 'open_file', 'rename', 'go_to_parent_dir', 'wikipedia', 'news', 'weather']
+2022-08-09 16:59:57,787 | Speech recognition is off
+2022-08-09 16:59:57,788 | Speech synthesis is off
+2022-08-09 17:00:15,082 | Generating summaries from the downloaded news articles
+2022-08-09 17:00:16,721 | News bulletin is ready

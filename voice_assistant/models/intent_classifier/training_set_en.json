@@ -3634,5 +3634,205 @@
     [
         "i want a summary of what happened today",
         "news"
+    ],
+    [
+        "what is the weather",
+        "weather"
+    ],
+    [
+        "what is the weather like",
+        "weather"
+    ],
+    [
+        "tell me about the weather for today",
+        "weather"
+    ],
+    [
+        "what is the weather for today",
+        "weather"
+    ],
+    [
+        "can you tell me what the weather will be like today",
+        "weather"
+    ],
+    [
+        "how is the weather",
+        "weather"
+    ],
+    [
+        "how will the weather be today",
+        "weather"
+    ],
+    [
+        "tell me about today's weather",
+        "weather"
+    ],
+    [
+        "how is the weather like",
+        "weather"
+    ],
+    [
+        "is it going to rain today",
+        "weather"
+    ],
+    [
+        "is it going to be sunny",
+        "weather"
+    ],
+    [
+        "will it snow today",
+        "weather"
+    ],
+    [
+        "is it going to rain",
+        "weather"
+    ],
+    [
+        "can you tell me if it's gonna rain today",
+        "weather"
+    ],
+    [
+        "i want to know what today's weather will be",
+        "weather"
+    ],
+    [
+        "what are the weather forecasts for today",
+        "weather"
+    ],
+    [
+        "what are the forecast today",
+        "weather"
+    ],
+    [
+        "is it supposed to rain today",
+        "weather"
+    ],
+    [
+        "is it gonna be sunny today",
+        "weather"
+    ],
+    [
+        "is the weather hot today",
+        "weather"
+    ],
+    [
+        "is it gonna be cold today",
+        "weather"
+    ],
+    [
+        "is it going to be warm today",
+        "weather"
+    ],
+    [
+        "could you tell me if it will be cold today",
+        "weather"
+    ],
+    [
+        "tell me about today's weather forecast",
+        "weather"
+    ],
+    [
+        "give me the weather forecast",
+        "weather"
+    ],
+    [
+        "can you give me the weather forecast for today",
+        "weather"
+    ],
+    [
+        "what are the forecasts",
+        "weather"
+    ],
+    [
+        "is it supposed to rain today",
+        "weather"
+    ],
+    [
+        "will the weather be good today",
+        "weather"
+    ],
+    [
+        "is it going to be sunny outside",
+        "weather"
+    ],
+    [
+        "give me the weather please",
+        "weather"
+    ],
+    [
+        "give me the weather",
+        "weather"
+    ],
+    [
+        "what will the weather be today",
+        "weather"
+    ],
+    [
+        "tell me the weather",
+        "weather"
+    ],
+    [
+        "is the weather good today",
+        "weather"
+    ],
+    [
+        "is there any rain forecast today",
+        "weather"
+    ],
+    [
+        "is there snow today",
+        "weather"
+    ],
+    [
+        "is it gonna snow",
+        "weather"
+    ],
+    [
+        "is it sunny or rainy today",
+        "weather"
+    ],
+    [
+        "do we have bad weather today",
+        "weather"
+    ],
+    [
+        "is the weather good or bad",
+        "weather"
+    ],
+    [
+        "how are the weather forecast",
+        "weather"
+    ],
+    [
+        "should i worry about bad weather",
+        "weather"
+    ],
+    [
+        "can you tell me if the weather is gonna be bad",
+        "weather"
+    ],
+    [
+        "i want information about today's weather forecast",
+        "weather"
+    ],
+    [
+        "give me the weather forecast for today",
+        "weather"
+    ],
+    [
+        "i want to know today's weather",
+        "weather"
+    ],
+    [
+        "give me today's weather please",
+        "weather"
+    ],
+    [
+        "tell me how the weather is gonna be today",
+        "weather"
+    ],
+    [
+        "what about today's weather",
+        "weather"
     ]
 ]
